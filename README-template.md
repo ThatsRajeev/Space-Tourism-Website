@@ -16,8 +16,6 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -28,85 +26,77 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - View each page and be able to toggle between the tabs to see new information
 
+
 ### Screenshot
 
-![](./screenshot.jpg)
+![2022-04-10 (1)](https://user-images.githubusercontent.com/82599062/162626399-9345b86d-38d5-4010-9dae-a2cc241c325c.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://thatsrajeev.github.io/Space-Tourism-Website/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- Raw HTML
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This is my first Web Development project I have worked on. It took a way long time than expected to build the site but the good part is that finally I have made it. Although there a tons of imperfections in the site but I have tried to apply the best of knowledge I have gained so far and also did the necessary research to make an appealing website as good as I can.
 
-To see how you can add code snippets, see below:
+I have learnt to create good looking navigation bars while working on this project. I tried the chrome inspect tool to see how professionals create their navigation bars and I tried to reinforce the same to create my own. The code snippet is as follow:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<ul class="strip">
+
+    <li><a class="active" href="index.html"><strong>00</strong> HOME</a></li>
+    <li><a class="nav" href="destination-moon.html"><strong>01</strong> DESTINATION</a></li>
+    <li><a class="nav" href="crew-commander.html"><strong>02</strong> CREW</a></li>
+    <li><a class="nav" href="technology-vehicle.html"><strong>03</strong> TECHNOLOGY</a></li>
+  </ul>
 ```
+I also learnt how to put on interesting background images to my webpage. Although early on, I faced a lot of issues while scrolling through or changing my window size affected the appearance of my background image but finally I figured out the perfect options which worked out for me.
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.home {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #FFFFFF;
+  height: 900px;
+  width: 1440px;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+  
+It was also interesting to learn how to create shadows around an element when in hovered state as:
+
+```html
+.button:hover {
+  box-shadow: 0 0 0 88px rgba(255, 255, 255, 0.1);
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+There were a lot other new things that I learned while doing this project and for sure those lessons would be helpful ahead as well.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+There are a lot of things that I want to work upon throughout my future projects. Firstly, this project was purely based on CSS and HTML and still a lot of elements I have created right through the basics. Things could be more smooth in the site I believe after I learn JavaScript as well and definitely I would learn and apply in my future projects
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) - This site was really helpful to find about any HTML or CSS element with examples to use it as well.
+- [Stack Overflow](https://stackoverflow.com/) - It was certainly a boon for a beginner like me. It got me answers of many different questions I had about adding a specific feature to my website with code snippet examples as well.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@ThatsRajeev](https://www.frontendmentor.io/profile/ThatsRajeev)
+- Twitter - [@Rajeev21c](https://twitter.com/Rajeev21c)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I am extremely grateful to Dr Angela Yu for whatall she have taught in her web development course and some really useful tips that she gave which helped me complete this project successfully.
